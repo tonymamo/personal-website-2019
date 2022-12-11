@@ -1,65 +1,85 @@
 <!DOCTYPE html>
+<!-- saved from url=(0021)https://tonymamo.com/ -->
 <html>
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
   <meta name="viewport" content="width=device-width">
   <title>Tony Mamo</title>
-  <link href="https://fonts.googleapis.com/css?family=Alegreya:400,900" rel="stylesheet">
-  <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-      crossorigin="anonymous"
-    >
+  <link rel="stylesheet" type="text/css" href="./fonts.css">
+
+  <link rel="stylesheet" href="./all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <style type="text/css">
     body {
       background: #fff url(http://tonymamo.com/images/topo.jpg);
-      font-family: 'Alegreya', serif;
+      font-family: "Whitney SSm A", "Whitney SSm B";
+      font-style: normal;
+      font-weight: 400;
       color: #5d5d5d;
       margin: 0;
       padding: 32px 16px;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
+
+    p {
+      line-height: 1.75;
+
+    }
+
     a {
       color: teal;
-      font-family: 'Alegreya', serif;
+      font-family: "Whitney SSm A", "Whitney SSm B";
     }
+
     a:hover,
     a:focus {
       color: #329999;
     }
+
     .content {
-      padding: 32px;
+      padding: 64px;
       background: #ffffff;
       border-radius: 3px;
-      max-width: 800px;
+      max-width: 75ch;
       margin: 0 auto;
-      box-shadow: 0px 0px 8px 2px rgba(0,128,128,.15);
+      box-shadow: 0px 0px 8px 2px rgba(0, 128, 128, .15);
     }
+
     .header {
       display: flex;
       align-items: center;
     }
+
     .logo {
-      font-family: 'Alegreya', serif;
+      font-family: "Whitney SSm A", "Whitney SSm B";
       font-size: 32px;
       color: teal;
       font-weight: 900;
     }
+
     .intro {
-      font-family: 'Alegreya', serif;
-      font-weight: 900;
+      font-family: "Whitney SSm A", "Whitney SSm B";
+      font-style: normal;
+      font-weight: 700;
     }
+
     .photo {
       width: 64px;
       height: 64px;
       margin-right: 16px;
       border-radius: 50%;
     }
+
     .footer {
       display: flex;
       justify-content: space-evenly;
     }
+
     .footer-link {
       text-decoration: none;
       padding: 0 8px;
@@ -68,6 +88,7 @@
       justify-content: center;
       align-items: center;
     }
+
     .icon {
       background-color: teal;
       color: #fff;
@@ -78,6 +99,7 @@
       justify-content: center;
       align-items: center;
     }
+
     .footer-link:hover .icon,
     .footer-link:focus .icon {
       background-color: #329999;
@@ -88,14 +110,29 @@
 <body>
   <div class="content">
     <header role="banner" class="header">
-      <img class="photo" src="http://tonymamo.com/images/tonymamo.jpg">
+      <img class="photo" src="./tony-square.jpg">
       <div class="logo">Tony Mamo</div>
     </header>
 
     <article>
       <h2 class="intro">Hello, my name is Tony Mamo and I am a developer &amp; designer.</h2>
-      <p>I specialize in architecting scalable, maintainable front-end systems paired with easy to use, beautiful interfaces. I've worked at some awesome startups in the past, and am currently working at <a href="http://galileo-insights.com/">Galileo Insights</a> on a variety of projects, mostly in the healthcare space.</p>
-      <p>Based out of Metro Detroit, outside of my work life I am a maker, photographer, musician, foodie, adventurer, husband, and dad.</p>
+      <p>I am a software engineer and UX/UI designer with over 15 years of professional experience, specializing in
+        architecting scalable, maintainable front end systems paired with easy to use and beautiful looking interfaces.
+        I am devoted to working on projects that move the world forward through innovative software. I have industry
+        experience within recruitment, healthcare, e-commerce, logistics, restaurant-tech, and non-profit charity
+        environments. I specialize as a Javascript developer who leans more towards the design side, working in React
+        (&amp; Next/Gatsby/React Native) with Styled Components, Typescript, Node, Redux, Git, AWS, Firebase, Jest,
+        Cypress, and a plethora of libraries and frameworks.</p>
+      <p>Based out of Metro Detroit, outside of my work life I am a woodworker, photographer, musician, foodie,
+        adventurer, husband, and dad.
+      </p>
+      <p>I also am a co-founder at <a href="https://getpackup.com/">Packup</a>, building an app that helps you prepare
+        for outdoor adventures through a dynamic packing list generator. Our goal is to increase the safety and
+        enjoyment of outdoor adventures by improving competency and preparedness. Our suite of trip preparation and
+        packing tools, along with contributions from a community of passionate users aims to create an ecosystem where
+        you can always be prepared for your outdoor excursions. Forgetting an important item can be embarrassing at
+        best, or life threatening and dangerous depending on the circumstances. With packup, we will ensure that no item
+        is left behind.</p>
     </article>
     <footer class="footer">
       <a href="https://github.com/tonymamo" class="footer-link">
@@ -110,8 +147,13 @@
       <a href="mailto:tony@tonymamo.com?subject=Contact%20from%20website" class="footer-link">
         <i class="fas fa-envelope icon"></i> Email
       </a>
+      <a href="http://tonymamo.com/Tony%20Mamo%20Resume.pdf" class="footer-link">
+        <i class="fa fa-file icon"></i> Résumé
+      </a>
     </footer>
   </div>
+
+
 </body>
 
 </html>
