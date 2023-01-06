@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/tonymamo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://tonymamo.com
+  * I am tonymamo (https://keybase.io/tonymamo) on keybase.
+  * I have a public key ASCVhW5xO2r7gN0PVl63q9N_UMStMPYh-UcC2ErP12ly9go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012095856e713b6afb80dd0f565eb7abd37f50c4ad30f621f94702d84acfd76972f60a",
+      "host": "keybase.io",
+      "kid": "012095856e713b6afb80dd0f565eb7abd37f50c4ad30f621f94702d84acfd76972f60a",
+      "uid": "8d2696ef07a6a60c2b9ce4bad1bdbb19",
+      "username": "tonymamo"
+    },
+    "merkle_root": {
+      "ctime": 1571666834,
+      "hash": "86e2648e323c9542c3c6d1c1f791184254cc7251742a083b4692b059e39585b96390d609647de9d92ac9f40d096bf5d6b09799e04458ef1f793437e2d574aaee",
+      "hash_meta": "5057156bf3f2494f416b354329b34e72e185009c9e4b058b37dafe617b6ed6dc",
+      "seqno": 8285654
+    },
+    "service": {
+      "entropy": "Dk1Dn4znEMxExqAVuvx9DL7x",
+      "hostname": "tonymamo.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.6.0"
+  },
+  "ctime": 1571666840,
+  "expire_in": 504576000,
+  "prev": "8aa3b253f14c484429a85825d981219ba3f940e09c8aa313fd56ed93393dda6d",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEglYVucTtq+4DdD1Zet6vTf1DErTD2IflHAthKz9dpcvYKp3BheWxvYWTESpcCB8QgiqOyU/FMSEQpqFgl2YEhm6P5QOCciqMT/Vbtkzk92m3EIKCipCvAWXjKm/sbj2mG8XcbCq1n1ieFrlwQREbQCYmAAgHCo3NpZ8RAfroMOOhjIB1QA6V/x3Q6HMQJi60RdZwGvM6pai9zjBgu9JC+rTc4mygg2qzi7YqznB8bYJxPjTh876IVHwgIB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDxo7CijGfWrSvk16WFGxu0uOKUNxdKqhFZL63/+GLuJo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tonymamo
+
+==================================================================
